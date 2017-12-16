@@ -1,0 +1,20 @@
+{
+  "name": "Muber",
+  "version": "0.0.1",
+  "description": "Ride Sharing App",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon --exec mocha --recursive"
+  },
+  "repository": "https://gitlab.com/john-react/Muber",
+  "author": "John Caraballo",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "express": "^4.16.2",
+    "mocha": "^4.0.1",
+    "mongoose": "^4.13.7",
+    "nodemon": "^1.13.3",
+    "supertest": "^3.0.0"
+  }
+}
