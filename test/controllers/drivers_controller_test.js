@@ -1,12 +1,12 @@
 const chai = require('chai');
 const request = require('supertest');
 const mongoose = require('mongoose');
+const app = require('../../app');
+
 const Driver = mongoose.model('driver');
 
 const assert = chai.assert;
 const expect = chai.expect;
-
-const app = require('../../app');
 
 describe('Drivers Controller', () => {
   it('POST to /api/drivers creates a new driver', (done) => {
@@ -67,7 +67,7 @@ describe('Drivers Controller', () => {
     });
 
     const miamiDriver = new Driver({
-      email: 'seattle@test.com', 
+      email: 'miami@test.com', 
       geometry: { type: 'Point', coordinates: [-80.253, 25.791] } 
     });
 
