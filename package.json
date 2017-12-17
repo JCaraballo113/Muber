@@ -4,7 +4,7 @@
   "description": "Ride Sharing App",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon --exec mocha --recursive"
+    "test": "SET NODE_ENV=test | nodemon --exec mocha --recursive"
   },
   "repository": "https://gitlab.com/john-react/Muber",
   "author": "John Caraballo",
